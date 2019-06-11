@@ -125,7 +125,7 @@ def getAllFootprint(request):
     '''
 
     :param request:
-    :return:
+    :return:nothing
     '''
 # 搜索
 def search(request):
