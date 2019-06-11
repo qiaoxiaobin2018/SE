@@ -99,8 +99,6 @@ def delcollect(request):
     :param request: url,title
     :return:
     '''
-    if request.method == "POST":
-        print("Done")
 # 获取所有收藏
 def getAllcollect(request):
     '''
