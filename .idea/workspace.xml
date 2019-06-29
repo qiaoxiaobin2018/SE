@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e6c689b0-ad83-46e8-a33b-f6ba78d9f573" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/软件工程/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/软件工程/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/软件工程/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/软件工程/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +25,10 @@
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.55" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -38,14 +36,14 @@
           <entry key="html" value="14" />
           <entry key="js" value="9" />
           <entry key="py" value="1778" />
-          <entry key="txt" value="16" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="14" />
           <entry key="JavaScript" value="9" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PLAIN_TEXT" value="18" />
           <entry key="Python" value="1778" />
         </counts>
       </usages-collector>
@@ -70,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/软件工程/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="378">
               <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="e#628#660#0" expanded="true" />
@@ -94,10 +92,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4425">
-              <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+            <state relative-caret-position="21">
+              <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
                 <marker date="1561472862537" expanded="true" signature="1150:1265" ph="..." />
                 <marker date="1561472862537" expanded="true" signature="1289:2254" ph="..." />
                 <marker date="1561472862537" expanded="true" signature="2281:3625" ph="..." />
@@ -264,13 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561457603637</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new file:   .idea/misc.xml&#10;&#9;new file:   .idea/modules.xml&#10;&#9;new file:   .idea/workspace.xml&#10;&#9;new file:   &quot;.idea/\350\275\257\344\273\266\345\267\245\347\250\213.iml&quot;&#10;&#9;new file:   manage.py&#10;&#9;new file:   myapp/__init__.py&#10;&#9;new file:   myapp/__pycache__/__init__.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/admin.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/models.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/views.cpython-36.pyc&#10;&#9;new file:   myapp/admin.py&#10;&#9;new file:   myapp/apps.py&#10;&#9;new file:   myapp/migrations/0001_initial.py&#10;&#9;new file:   myapp/migrations/__init__.py&#10;&#9;new file:   myapp/migrations/__pycache__/0001_initial.cpython-36.pyc&#10;&#9;new file:   myapp/migrations/__pycache__/__init__.cpython-36.pyc&#10;&#9;new file:   myapp/models.py&#10;&#9;new file:   myapp/tests.py&#10;&#9;new file:   myapp/views.py&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__init__.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/__init__.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/settings.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/urls.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/settings.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/urls.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/wsgi.py&quot;">
+      <created>1561817525197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561817525197</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16572352" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16814874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -353,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/软件工程/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="378">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
@@ -380,10 +385,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4425">
-          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        <state relative-caret-position="21">
+          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
             <marker date="1561472862537" expanded="true" signature="1150:1265" ph="..." />
             <marker date="1561472862537" expanded="true" signature="1289:2254" ph="..." />
             <marker date="1561472862537" expanded="true" signature="2281:3625" ph="..." />
