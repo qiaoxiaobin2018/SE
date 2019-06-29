@@ -128,12 +128,6 @@ LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
-# CORS_ALLOW_CREDENTIALS = True
-#
-# CORS_ORIGIN_ALLOW_ALL = True
-# #允许所有的请求头
-# CORS_ALLOW_HEADERS = ('*')
-
 USE_I18N = True
 
 USE_L10N = True
