@@ -8,6 +8,7 @@ import random
 import hashlib
 import json
 from email.mime.text import MIMEText
+import requests
 
 # 返回数据格式
 def getandReturn(status,info,data):
@@ -41,6 +42,14 @@ def emailSender(targetEmail,num):
         print('邮件发送成功！')
     except smtplib.SMTPException as e:
         print(e)
+
+#首页
+def first(request):
+    return render(request, 'index.html')
+
+#呈现
+def second(request):
+    return render(request, 'searchPage.html')
 
 # 登录
 def login(request):
@@ -84,14 +93,14 @@ def register(request):
         sessionCacheData = request.session.get('sessionCacheData',None)
         if num != sessionCacheData:
             print('验证码错误！')
-            return HttpResponse(getandReturn.result_format('0', '验证码错误！', None))
+            return HttpResponse(getandReturn('0', '验证码错误！', None))
         else:
             username = request.POST.get('username', None)
             useremail = request.POST.get('email', None)
             password = request.POST.get('password', None)
             if useremail == "" or password == "":
                 print('邮箱和密码不能为空！')
-                return HttpResponse(getandReturn.result_format('0', '邮箱和密码不能为空！', None))
+                return HttpResponse(getandReturn('0', '邮箱和密码不能为空！', None))
             else:
                 user = models.User()
                 user.username = username
@@ -102,13 +111,13 @@ def register(request):
                     user.save()
                 except:
                     print('注册失败！')
-                    return HttpResponse(getandReturn.result_format('0', '注册失败！', None))
+                    return HttpResponse(getandReturn('0', '注册失败！', None))
 
                 print('注册成功！')
-                return HttpResponse(getandReturn.result_format('1', '注册成功！', None))
+                return HttpResponse(getandReturn('1', '注册成功！', None))
     else:
         print('注册失败，请使用POST方法！')
-        return HttpResponse(getandReturn.result_format('0', '注册失败，请使用POST方法！',None))
+        return HttpResponse(getandReturn('0', '注册失败，请使用POST方法！',None))
 
 # 注销
 def logout(request):
@@ -123,32 +132,11 @@ def logout(request):
         del request.session['user_name']
     except:
         print('注销失败！')
-        return HttpResponse(getandReturn.result_format('0', '注销失败！', None))
+        return HttpResponse(getandReturn('0', '注销失败！', None))
 
     print('注销成功！')
-    return HttpResponse(getandReturn.result_format('1', '注销成功！', None))
+    return HttpResponse(getandReturn('1', '注销成功！', None))
 
-# 添加收藏
-def addcollect(request):
-    '''
-
-    :param request: url,title
-    :return:
-    '''
-# 删除收藏
-def delcollect(request):
-    '''
-
-    :param request: url,title
-    :return:
-    '''
-# 获取所有收藏
-def getAllcollect(request):
-    '''
-
-    :param request:
-    :return:
-    '''
 # 添加足迹
 def addFootprint(request):
     '''
@@ -192,14 +180,35 @@ def addFootprint(request):
         print('添加足迹返回信息失败！')
         return HttpResponse(getandReturn(0, '添加足迹返回信息失败！', None))
 
-
 # 删除足迹
 def delFootprint(request):
     '''
 
-    :param request: url,title
+    :param request: id
     :return:
     '''
+    if request.method == " POST":
+        fpid =request.POST.get("id",None)
+        try:
+            thisfp = models.Footprint2.objects.get(id=fpid)
+            thisfp.delete()
+            print("删除足迹成功！")
+        except:
+            print("删除足迹失败！")
+            return HttpResponse(getandReturn(0, '删除足迹失败！', None))
+
+        #返回所有足迹
+        userid = request.session.get('user_id', None)
+        try:
+            result = models.Footprint2.objects.values().filter(user_id=userid)
+            resultList = list(result)
+            footprints = json.dumps(resultList)
+            print('删除足迹返回信息成功！')
+            return HttpResponse(getandReturn(1, '删除足迹返回信息成功！', footprints))
+        except:
+            print('删除足迹返回信息失败！')
+            return HttpResponse(getandReturn(0, '删除足迹返回信息失败！', None))
+
 # 获取所有足迹
 def getAllFootprint(request):
     '''
@@ -207,6 +216,22 @@ def getAllFootprint(request):
     :param request:
     :return:nothing
     '''
+    if request.method == "POST":
+        try:
+            userid = request.session.get('user_id', None)
+        except:
+            print("用户未登录！")
+            return HttpResponse(getandReturn(0, "用户未登录！", None))
+        try:
+            result = models.Footprint2.objects.values().filter(user_id=userid)
+            resultList = list(result)
+            footprints = json.dumps(resultList)
+            print('删除足迹返回信息成功！')
+            return HttpResponse(getandReturn(1, '删除足迹返回信息成功！', footprints))
+        except:
+            print('删除足迹返回信息失败！')
+            return HttpResponse(getandReturn(0, '删除足迹返回信息失败！', None))
+
 # 搜索
 def search(request):
     '''
@@ -214,7 +239,7 @@ def search(request):
     :return:
     '''
     es = Elasticsearch()
-    question = request.GET.get("question")
+    question = request.GET.get("question",None)
     qq = {
         "query": {
             "match_phrase_prefix": {
@@ -244,10 +269,13 @@ def search(request):
         tt = itt['_source']['title']
         uu = itt['_source']['url']
         mm = itt['_source']['main']
+        if len(mm) > 74:
+            mm = mm[0:77]+"......"
         ll = {}
         ll['title'] = tt
         ll['url'] = uu
         ll['main'] = mm
         list.append(ll)
         cc = cc + 1
+    print("搜索结果返回成功！")
     return HttpResponse(getandReturn(1, cc, list))

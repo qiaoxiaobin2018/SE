@@ -19,6 +19,12 @@ from myapp import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-
-
+    url(r'^$', views.first),
+    url(r'^search', views.search),
+    url(r'^login', views.login),
+    url(r'^regist', views.register),
+    url(r'^logout', views.logout),
+    url(r'^addFootprint', views.addFootprint),
+    url(r'^delFootprint', views.delFootprint),
+    url(r'^getAllFootprint', views.getAllFootprint)
 ]

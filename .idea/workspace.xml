@@ -4,6 +4,8 @@
     <list default="true" id="e6c689b0-ad83-46e8-a33b-f6ba78d9f573" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/软件工程/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/软件工程/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/软件工程/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/软件工程/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,36 +20,46 @@
     <session id="511052358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.262" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.55" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1281" />
-          <entry key="txt" value="13" />
+          <entry key="html" value="14" />
+          <entry key="js" value="9" />
+          <entry key="py" value="1778" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="1281" />
+          <entry key="HTML" value="14" />
+          <entry key="JavaScript" value="9" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Python" value="1778" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="html" value="2" />
+          <entry key="js" value="1" />
           <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="1" />
           <entry key="Python" value="5" />
         </counts>
       </usages-collector>
@@ -58,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/软件工程/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="175">
               <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="e#628#660#0" expanded="true" />
@@ -70,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="441">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -82,18 +94,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="191" column="28" lean-forward="true" selection-start-line="191" selection-start-column="28" selection-end-line="191" selection-end-column="28" />
+            <state relative-caret-position="-4425">
+              <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
-                <element signature="e#434#1109#0" />
-                <element signature="e#3415#3810#0" />
-                <marker date="1561457495967" expanded="true" signature="1135:2100" ph="..." />
-                <marker date="1561457495967" expanded="true" signature="2127:3541" ph="..." />
-                <marker date="1561457495967" expanded="true" signature="3566:3954" ph="..." />
-                <marker date="1561457495967" expanded="true" signature="3985:4046" ph="..." />
-                <marker date="1561457495967" expanded="true" signature="4258:5583" ph="..." />
-                <marker date="1561457495967" expanded="true" signature="5861:5913" ph="..." />
+                <marker date="1561472862537" expanded="true" signature="1150:1265" ph="..." />
+                <marker date="1561472862537" expanded="true" signature="1289:2254" ph="..." />
+                <marker date="1561472862537" expanded="true" signature="2281:3625" ph="..." />
+                <marker date="1561472862537" expanded="true" signature="3650:4009" ph="..." />
+                <marker date="1561472862537" expanded="true" signature="4043:5339" ph="..." />
+                <marker date="1561472862537" expanded="true" signature="7025:7074" ph="..." />
               </folding>
             </state>
           </provider>
@@ -102,13 +112,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/软件工程/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="81" column="24" lean-forward="true" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+            <state relative-caret-position="945">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>config</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -124,11 +139,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/myapp/models.py" />
-        <option value="$PROJECT_DIR$/软件工程/settings.py" />
         <option value="$PROJECT_DIR$/软件工程/__init__.py" />
         <option value="$PROJECT_DIR$/myapp/__init__.py" />
-        <option value="$PROJECT_DIR$/软件工程/urls.py" />
+        <option value="$PROJECT_DIR$/软件工程/settings.py" />
         <option value="$PROJECT_DIR$/myapp/views.py" />
+        <option value="$PROJECT_DIR$/软件工程/urls.py" />
+        <option value="$PROJECT_DIR$/templates/searchPage.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/javascripts/config.js" />
       </list>
     </option>
   </component>
@@ -157,16 +175,6 @@
               <item name="软件工程" type="b2602c69:ProjectViewProjectNode" />
               <item name="软件工程" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="软件工程" type="b2602c69:ProjectViewProjectNode" />
-              <item name="软件工程" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="软件工程" type="b2602c69:ProjectViewProjectNode" />
-              <item name="软件工程" type="462c0819:PsiDirectoryNode" />
-              <item name="软件工程" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -176,10 +184,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../searchEngine" />
+    <property name="last_opened_file_path" value="D:/python/Scripts/pylint.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python_projects\软件工程\templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,15 +213,16 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="软件工程.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\python\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="192.168.249.164" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -243,19 +257,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560232824022</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new file:   .idea/misc.xml&#10;&#9;new file:   .idea/modules.xml&#10;&#9;new file:   .idea/workspace.xml&#10;&#9;new file:   &quot;.idea/\350\275\257\344\273\266\345\267\245\347\250\213.iml&quot;&#10;&#9;new file:   manage.py&#10;&#9;new file:   myapp/__init__.py&#10;&#9;new file:   myapp/__pycache__/__init__.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/admin.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/models.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/views.cpython-36.pyc&#10;&#9;new file:   myapp/admin.py&#10;&#9;new file:   myapp/apps.py&#10;&#9;new file:   myapp/migrations/0001_initial.py&#10;&#9;new file:   myapp/migrations/__init__.py&#10;&#9;new file:   myapp/migrations/__pycache__/0001_initial.cpython-36.pyc&#10;&#9;new file:   myapp/migrations/__pycache__/__init__.cpython-36.pyc&#10;&#9;new file:   myapp/models.py&#10;&#9;new file:   myapp/tests.py&#10;&#9;new file:   myapp/views.py&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__init__.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/__init__.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/settings.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/urls.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/settings.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/urls.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/wsgi.py&quot;">
+      <created>1561457603637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561457603637</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1293452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16572352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,7 +284,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.86702126" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.96980464" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -284,6 +304,17 @@
     <MESSAGE value="new file:   .idea/misc.xml&#10;&#9;new file:   .idea/modules.xml&#10;&#9;new file:   .idea/workspace.xml&#10;&#9;new file:   &quot;.idea/\350\275\257\344\273\266\345\267\245\347\250\213.iml&quot;&#10;&#9;new file:   manage.py&#10;&#9;new file:   myapp/__init__.py&#10;&#9;new file:   myapp/__pycache__/__init__.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/admin.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/models.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/views.cpython-36.pyc&#10;&#9;new file:   myapp/admin.py&#10;&#9;new file:   myapp/apps.py&#10;&#9;new file:   myapp/migrations/0001_initial.py&#10;&#9;new file:   myapp/migrations/__init__.py&#10;&#9;new file:   myapp/migrations/__pycache__/0001_initial.cpython-36.pyc&#10;&#9;new file:   myapp/migrations/__pycache__/__init__.cpython-36.pyc&#10;&#9;new file:   myapp/models.py&#10;&#9;new file:   myapp/tests.py&#10;&#9;new file:   myapp/views.py&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__init__.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/__init__.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/settings.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/urls.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/settings.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/urls.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/wsgi.py&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="new file:   .idea/misc.xml&#10;&#9;new file:   .idea/modules.xml&#10;&#9;new file:   .idea/workspace.xml&#10;&#9;new file:   &quot;.idea/\350\275\257\344\273\266\345\267\245\347\250\213.iml&quot;&#10;&#9;new file:   manage.py&#10;&#9;new file:   myapp/__init__.py&#10;&#9;new file:   myapp/__pycache__/__init__.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/admin.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/models.cpython-36.pyc&#10;&#9;new file:   myapp/__pycache__/views.cpython-36.pyc&#10;&#9;new file:   myapp/admin.py&#10;&#9;new file:   myapp/apps.py&#10;&#9;new file:   myapp/migrations/0001_initial.py&#10;&#9;new file:   myapp/migrations/__init__.py&#10;&#9;new file:   myapp/migrations/__pycache__/0001_initial.cpython-36.pyc&#10;&#9;new file:   myapp/migrations/__pycache__/__init__.cpython-36.pyc&#10;&#9;new file:   myapp/models.py&#10;&#9;new file:   myapp/tests.py&#10;&#9;new file:   myapp/views.py&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__init__.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/__init__.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/settings.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/__pycache__/urls.cpython-36.pyc&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/settings.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/urls.py&quot;&#10;&#9;new file:   &quot;\350\275\257\344\273\266\345\267\245\347\250\213/wsgi.py&quot;" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/searchPage.html</url>
+          <line>123</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/软件工程/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -296,15 +327,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/searchPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2583">
+          <caret line="123" column="26" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/javascripts/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/软件工程/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="175">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
@@ -312,37 +361,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/软件工程/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="81" column="24" lean-forward="true" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="441">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="28" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/软件工程/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="191" column="28" lean-forward="true" selection-start-line="191" selection-start-column="28" selection-end-line="191" selection-end-column="28" />
+        <state relative-caret-position="-4425">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#434#1109#0" />
-            <element signature="e#3415#3810#0" />
-            <marker date="1561457495967" expanded="true" signature="1135:2100" ph="..." />
-            <marker date="1561457495967" expanded="true" signature="2127:3541" ph="..." />
-            <marker date="1561457495967" expanded="true" signature="3566:3954" ph="..." />
-            <marker date="1561457495967" expanded="true" signature="3985:4046" ph="..." />
-            <marker date="1561457495967" expanded="true" signature="4258:5583" ph="..." />
-            <marker date="1561457495967" expanded="true" signature="5861:5913" ph="..." />
+            <marker date="1561472862537" expanded="true" signature="1150:1265" ph="..." />
+            <marker date="1561472862537" expanded="true" signature="1289:2254" ph="..." />
+            <marker date="1561472862537" expanded="true" signature="2281:3625" ph="..." />
+            <marker date="1561472862537" expanded="true" signature="3650:4009" ph="..." />
+            <marker date="1561472862537" expanded="true" signature="4043:5339" ph="..." />
+            <marker date="1561472862537" expanded="true" signature="7025:7074" ph="..." />
           </folding>
         </state>
       </provider>
